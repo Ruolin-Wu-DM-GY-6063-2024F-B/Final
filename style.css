@@ -1,0 +1,25 @@
+<style>
+  /* Ensure the controls container remains on top */
+  #controls-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Style the connect button */
+  #connectButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #connectButton:hover {
+    background-color: #d5ce41;
+  }
+</style>
